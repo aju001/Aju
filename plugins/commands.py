@@ -49,6 +49,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
+            ],[
+            InlineKeyboardButton('🔰 Subscribe YouTube 🔰', url='https://youtube.com/channel/UCk4uZXPnYwPSo2YlQECp1RA')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
