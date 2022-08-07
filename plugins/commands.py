@@ -51,6 +51,7 @@ async def start(client, message):
             InlineKeyboardButton('😊 About', callback_data='about')
             ],[
             InlineKeyboardButton('🔰 Subscribe on YouTube 🔰', url='https://youtube.com/channel/UCk4uZXPnYwPSo2YlQECp1RA')
+            ],[
             InlineKeyboardButton('🦄 Follow me on Insta 🦄', url='https://instagram.com/aju_k_x?igshid=YmMyMTA2M2Y=')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
